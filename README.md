@@ -1,5 +1,5 @@
 # HW-1
-##P.2-7
+## P.2-7
 
 $V_{2}=-\frac{1}{RC}\int_{t}^{0}V_{1}dt$
 
@@ -17,7 +17,8 @@ $\frac{V_{2}(s)}{V_{1}(s)} =-\frac{1}{sRC}$
 
 인 전달함수가 결정된다.
 
-##P.2-12
+
+## P.2-12
 문제를 바탕으로 전달함수를 식으로 작성하면 
 $\frac{Y(s)}{R(s)} =\frac{k}{s+50}$
 
@@ -38,7 +39,8 @@ $\displaystyle \lim_{t \to inf}y(t) =\displaystyle \lim_{s \to 0}sY(s)=\frac{k}{
 따라서 k=50이다.
 
 
-##P.2-15
+## P.2-15
+
 
 $m\ddot{x}(t)+b\dot{x}(t)+kx(t)=u(t)$
 
@@ -55,7 +57,8 @@ $x(t)=e^{-\sqrt(\frac{b}{2m})t}\frac{1}{\sqrt(\frac{2k-b}{2m})}sin(\frac{2k-b}{2
 가 된다.
 
 
-##P.2-26
+## P.2-26
+
 
 다음 문제를 미분방정식으로 나타내면
 
@@ -89,7 +92,9 @@ $\frac{Y(s)}{F(s)}=\frac{\frac{1}{Mm}(bs+k)}{s^2[s^2=(1+\frac{m}{M})(\frac{b}{m}
 
 이라는 전달함수가 된다.
 
-##P.2-37
+## P.2-37
+
+
 a) 다음 미분방정식을 구하면
 
 $m_{1}\ddot{x}=-(k_{1}+k_{2})x+k_{2}y$
