@@ -112,3 +112,8 @@ $X(s)=\frac{Y(s)}{m_{1}s^2+2}$
 $\frac{Y(s)}{U(s)}=\frac{1}{m_{2}s^2-\frac{1}{m_{1}^2s+2}+1}$
 
 이 된다.
+
+$\begin{vmatrix}
+2 & 1 \\
+2 & 3 \\
+\end{vmatrix}$
