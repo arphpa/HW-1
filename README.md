@@ -65,26 +65,25 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 
 이를 라플라스 변환시키고 행렬로 나타내면
 
+$
 $\begin{vmatrix}
-
 (Ms^2+bs+k) & -(bs+k) \\
-
 -(bs+k) & (ms^2+bs+k) \\
+\end{vmatrix}
+$$
 
- \end{vmatrix}$
-
-$\begin{vmatrix}
-
- (X(s)) \\ (Y(s))
- 
-\end{vmatrix}$
+$$
+\begin{vmatrix}
+(X(s)) \\ (Y(s)) 
+\end{vmatrix}
+$$
 
 =
-$\begin{vmatrix}
 
+$$\begin{vmatrix}
 F(s) \\ 0
-
-\end{vmatrix}$
+\end{vmatrix}
+$$
 
 $\frac{Y(s)}{F(s)}=\frac{\frac{1}{Mm}(bs+k)}{s^2[s^2=(1+\frac{m}{M})(\frac{b}{m}s+\frac{k}{m})]}$
 
@@ -113,7 +112,4 @@ $\frac{Y(s)}{U(s)}=\frac{1}{m_{2}s^2-\frac{1}{m_{1}^2s+2}+1}$
 
 이 된다.
 
-$\begin{vmatrix}
-2 & 1 \\
-2 & 3 \\
-\end{vmatrix}$
+
