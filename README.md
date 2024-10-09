@@ -68,12 +68,13 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 $\begin{vmatrix}
 Ms^2+bs+k & -(bs+k) \\
 -(bs+k) & ms^2+bs+k \\
-\end{vmatrix}$
+ \end{vmatrix}$
 
 $\begin{vmatrix}
-X(s) \\ Y(s)
+ X(s) \\ Y(s)
 \end{vmatrix}$
-= $\begin{vmatrix}
+=
+$\begin{vmatrix}
 F(s) \\ 0
 \end{vmatrix}$
 
