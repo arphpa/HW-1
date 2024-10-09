@@ -66,31 +66,49 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 이를 라플라스 변환시키고 행렬로 나타내면
 
 $\begin{vmatrix}
+
 (Ms^2+bs+k) & -(bs+k) \\
+
 -(bs+k) & (ms^2+bs+k) \\
+
  \end{vmatrix}$
 
 $\begin{vmatrix}
+
  (X(s)) \\ (Y(s))
+ 
 \end{vmatrix}$
 
 =
 $\begin{vmatrix}
+
 F(s) \\ 0
+
 \end{vmatrix}$
 
 $\frac{Y(s)}{F(s)}=\frac{\frac{1}{Mm}(bs+k)}{s^2[s^2=(1+\frac{m}{M})(\frac{b}{m}s+\frac{k}{m})]}$
+
 이라는 전달함수가 된다.
 
 ##P.2-37
 a) 다음 미분방정식을 구하면
+
 $m_{1}\ddot{x}=-(k_{1}+k_{2})x+k_{2}y$
+
 $m_{2}\ddot{y}=k_{2}(x-y)+u(t)$
+
 이라는 2개의 미분방정식이 완성된다.
+
 이를 라플라스 변환시켜서 전달함수를 구하면
+
 $m_{1}s^2X(s)+2X(s)-Y(s)=0$
+
 $m_{2}s^2Y(s)-X(s)+Y(s)=U(s)$
+
 $X(s)=\frac{Y(s)}{m_{1}s^2+2}$
+
 위의 식을 Y(s)를 대입하면 전달함수를 구할 수 있다. 이를 정리하면
+
 $\frac{Y(s)}{U(s)}=\frac{1}{m_{2}s^2-\frac{1}{m_{1}^2s+2}+1}$
+
 이 된다.
