@@ -9,7 +9,7 @@ $V_{2}(s)=-\frac{Z_{1}}{Z_{2}}V_{1}(s)$
 
 이를 다시 정리하면 
 
-$ V_{2}(s)=-\frac{1}{sRC}V_{1}(s)$ 
+$V_{2}(s)=-\frac{1}{sRC}V_{1}(s)$ 
 
 이므로 문제에서 요구하는 값은 
 
@@ -65,8 +65,8 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 
 이를 라플라스 변환시키고 행렬로 나타내면
 
-$
-$\begin{vmatrix}
+$$
+\begin{vmatrix}
 (Ms^2+bs+k) & -(bs+k) \\
 -(bs+k) & (ms^2+bs+k) \\
 \end{vmatrix}
