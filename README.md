@@ -66,13 +66,14 @@ $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
 이를 라플라스 변환시키고 행렬로 나타내면
 
 $\begin{vmatrix}
-Ms^2+bs+k & -(bs+k) \\
--(bs+k) & ms^2+bs+k \\
+(Ms^2+bs+k) & -(bs+k) \\
+-(bs+k) & (ms^2+bs+k) \\
  \end{vmatrix}$
 
 $\begin{vmatrix}
- X(s) \\ Y(s)
+ (X(s)) \\ (Y(s))
 \end{vmatrix}$
+
 =
 $\begin{vmatrix}
 F(s) \\ 0
