@@ -2,50 +2,78 @@
 ##P.2-7
 
 $V_{2}=-\frac{1}{RC}\int_{t}^{0}V_{1}dt$
+
 이를 라플라스 변환하면
+
 $V_{2}(s)=-\frac{Z_{1}}{Z_{2}}V_{1}(s)$
+
 이를 다시 정리하면 
+
 $ V_{2}(s)=-\frac{1}{sRC}V_{1}(s)$ 
+
 이므로 문제에서 요구하는 값은 
+
 $\frac{V_{2}(s)}{V_{1}(s)} =-\frac{1}{sRC}$
+
 인 전달함수가 결정된다.
 
 ##P.2-12
 문제를 바탕으로 전달함수를 식으로 작성하면 
 $\frac{Y(s)}{R(s)} =\frac{k}{s+50}$
+
 이때 $R(s)=\frac{1}{s}$이므로 
+
 $Y(s) =\frac{k}{s(s+50)}$
+
 이를 역라플라스 변환을 통해 나타내면 
+
 $y(t)=\frac{k}{50}(1-e^{-50t})$
+
 $t\to inf \frac{k}{50}$이 된다.
+
 이를 정리하면
+
 $\displaystyle \lim_{t \to inf}y(t) =\displaystyle \lim_{s \to 0}sY(s)=\frac{k}{50}=1$
+
 따라서 k=50이다.
 
+
 ##P.2-15
+
 $m\ddot{x}(t)+b\dot{x}(t)+kx(t)=u(t)$
+
 이를 라플라스 변환을 하면
+
 $ms^{2}X(s)+bsX(s)+kX(s)=U(s)$
+
 $X(s)=\frac{1}{s^{2}+\frac{b}{m}s+\frac{k}{m}}$
+
 이를 역라플라스변환을 하면
+
 $x(t)=e^{-\sqrt(\frac{b}{2m})t}\frac{1}{\sqrt(\frac{2k-b}{2m})}sin(\frac{2k-b}{2m}t)$
+
 가 된다.
 
+
 ##P.2-26
+
 다음 문제를 미분방정식으로 나타내면
 
 $M\ddot{x}+b(\dot{x}-\dot{y})+k(x-y)=F(t)$
+
 $m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
+
 이를 라플라스 변환시키고 행렬로 나타내면
 
 $\begin{vmatrix}
 Ms^2+bs+k & -(bs+k) \\
 -(bs+k) & ms^2+bs+k \\
-\end{vmatrix}
-\begin{vmatrix}
+\end{vmatrix}$
+
+$\begin{vmatrix}
 X(s) \\ Y(s)
-\end{vmatrix}
-= \begin{vmatrix}
+\end{vmatrix}$
+= $\begin{vmatrix}
 F(s) \\ 0
 \end{vmatrix}$
 
