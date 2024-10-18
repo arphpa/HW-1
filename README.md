@@ -48,7 +48,7 @@ $C\frac{\partial V}{\partial t}=-i_{L}+i_{R}$
 
 $\frac{\mathrm{di} }{\mathrm{d} t}=V_{c}/L-V_{2}/L+V_{1}/L$
 
-$ \frac{\partial V}{\partial t}=-V_{c}/RC-i_{L}/C+V_{2}/RC$
+$\frac{\partial V}{\partial t}=-V_{c}/RC-i_{L}/C+V_{2}/RC$
 
 이를 토대로 문제에서 x1은 인덕터 전류 x2는 커패시터 전압이라 하였으므로 위식을 이용해 상태방정식으로 나타내면 
 
@@ -66,7 +66,7 @@ $$\begin{vmatrix}
 \end{vmatrix}$$
 
 $$\begin{matrix}
-V1 \\V2
+V1 \\ V2
 \end{matrix}$$
 
 가 된다.
