@@ -1,24 +1,35 @@
-# HW-1
-## P.2-7
+# HW-3
+## P.3-1
 
-$V_{2}=-\frac{1}{RC}\int_{t}^{0}V_{1}dt$
+(a)
 
+적당한 변수로 
+$ x_{1}=y(t),x_{2}=\dot{y}(t)$
+
+라 두고 식을 작성하면
+
+(b)
+
+$M_{1}\frac{\partial^2 y(t)}{\partial t^2}+b_{1}\dot{y}(t)+ky(t)=F(t)$
+
+라는 미분방정식이 완성된다.
+
+(c)
+
+이제 상태미분방정식으로 표현하면 
 이를 라플라스 변환하면
 
-$V_{2}(s)=-\frac{Z_{1}}{Z_{2}}V_{1}(s)$
+$\dot{x}(t)=\begin{bmatrix}
+0 & 1 \\
+ \frac{-k}{M}& \frac{-b}{M} \\
+\end{bmatrix}x(t) 
++  \begin{bmatrix}
+ 0\\\frac{1}{M}
+\end{bmatrix}F(t))$
 
-이를 다시 정리하면 
+가 된다. 
 
-$V_{2}(s)=-\frac{1}{sRC}V_{1}(s)$ 
-
-이므로 문제에서 요구하는 값은 
-
-$\frac{V_{2}(s)}{V_{1}(s)} =-\frac{1}{sRC}$
-
-인 전달함수가 결정된다.
-
-
-## P.2-12
+## P.3-3
 문제를 바탕으로 전달함수를 식으로 작성하면 
 $\frac{Y(s)}{R(s)} =\frac{k}{s+50}$
 
@@ -39,7 +50,7 @@ $\displaystyle \lim_{t \to inf}y(t) =\displaystyle \lim_{s \to 0}sY(s)=\frac{k}{
 따라서 k=50이다.
 
 
-## P.2-15
+## P.3-5
 
 
 $m\ddot{x}(t)+b\dot{x}(t)+kx(t)=u(t)$
@@ -57,7 +68,7 @@ $x(t)=e^{-\sqrt(\frac{b}{2m})t}\frac{1}{\sqrt(\frac{2k-b}{2m})}sin(\frac{2k-b}{2
 가 된다.
 
 
-## P.2-26
+## P.3-12
 
 
 다음 문제를 미분방정식으로 나타내면
@@ -92,7 +103,7 @@ $\frac{Y(s)}{F(s)}=\frac{\frac{1}{Mm}(bs+k)}{s^2[s^2=(1+\frac{m}{M})(\frac{b}{m}
 
 이라는 전달함수가 된다.
 
-## P.2-37
+## P.3-17
 
 
 a) 다음 미분방정식을 구하면
