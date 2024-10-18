@@ -26,18 +26,14 @@ $$
 \begin{vmatrix} 
 0 & 1 \\ 
 \frac{-k}{M}& \frac{-b}{M} \\ 
-\end{vmatrix}x(t)
-$$
-
+\end{vmatrix}
 x(t) +
  
-$$
 \begin{vmatrix}
 0\\  \frac{1}{M} \\ 
 \end{vmatrix} 
-$$ 
-
  F(t)
+ $$
 
 가 된다. 
 
