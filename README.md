@@ -33,8 +33,8 @@ x(t) +
  
 $$
 \begin{vmatrix}
-0\\  \frac{1}{M}
-\end{vmatrix}
+0\\  \frac{1}{M} \\ 
+\end{vmatrix} 
 $$ 
 
  F(t)
