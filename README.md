@@ -81,22 +81,22 @@ $T_{s}=\frac{Y(s)}{U(s)}=\frac{(s+2)}{s(s+8)(s-3)})$
 
 상태변수모델을 구하면 
 
-$A=\begin{bmatrix}
+$$A=\begin{bmatrix}
 0 & 1 & 0 \\
 0 & 0 & 1 \\
 0 & -24 & 5 \\
-\end{bmatrix}$
+\end{bmatrix}$$
 
-$b=\begin{bmatrix}
+$$b=\begin{bmatrix}
 0  \\
 0  \\
 -1  \\
-\end{bmatrix}$
+\end{bmatrix}$$
 
 
-$c=\begin{bmatrix}
+$$c=\begin{bmatrix}
 2 & 1 & 0 \\
-\end{bmatrix}$
+\end{bmatrix}$$
 
 가 된다.
 
