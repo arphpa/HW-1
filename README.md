@@ -28,15 +28,15 @@ $$
 \frac{-k}{M}& \frac{-b}{M} \\ 
 \end{vmatrix}
 $$
-x(t) 
 
-+
+x(t) +
  
 $$
 \begin{vmatrix}
-0\\ \frac{1}{M}
+0\\  \frac{1}{M}
 \end{vmatrix}
 $$ 
+
  F(t)
 
 가 된다. 
