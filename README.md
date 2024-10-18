@@ -40,23 +40,36 @@ x(t) $$
 
 ## P.3-3
 문제를 바탕으로 전달함수를 식으로 작성하면 
-$\frac{Y(s)}{R(s)} =\frac{k}{s+50}$
+$L\frac{\mathrm{di} }{\mathrm{d} t}-V_{c}+V_{2}-V_{1}=0$
 
-이때 $R(s)=\frac{1}{s}$이므로 
+$C\frac{\partial V}{\partial t}=-i_{L}+i_{R}$
 
-$Y(s) =\frac{k}{s(s+50)}$
+이 둘을 연립하면 다음과 같은 식이 나온다. 
 
-이를 역라플라스 변환을 통해 나타내면 
+$\frac{\mathrm{di} }{\mathrm{d} t}=V_{c}/L-V_{2}/L+V_{1}/L$
 
-$y(t)=\frac{k}{50}(1-e^{-50t})$
+$ \frac{\partial V}{\partial t}=-V_{c}/RC-i_{L}/C+V_{2}/RC$
 
-$t\to inf \frac{k}{50}$이 된다.
+이를 토대로 문제에서 x1은 인덕터 전류 x2는 커패시터 전압이라 하였으므로 위식을 이용해 상태방정식으로 나타내면 
 
-이를 정리하면
+$\dot{x}(t)$
+=
 
-$\displaystyle \lim_{t \to inf}y(t) =\displaystyle \lim_{s \to 0}sY(s)=\frac{k}{50}=1$
+$$\begin{vmatrix}
+ 0&1/L  \\
+ -1/C&-1/RC  \\
+\end{vmatrix} x(t)$$
+ +
+$$\begin{vmatrix}
+ 1/L&-1/L  \\
+ 0&1/RC  \\
+\end{vmatrix}$$
 
-따라서 k=50이다.
+$$\begin{matrix}
+V1 \\V2
+\end{matrix}$$
+
+가 된다.
 
 
 ## P.3-5
