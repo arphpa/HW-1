@@ -22,16 +22,16 @@ $M_{1}\frac{\partial^2 y(t)}{\partial t^2}+b_{1}\dot{y}(t)+ky(t)=F(t)$
 
 $\dot{x}(t)$ = 
 $$
-\begin{bmatrix} 
+\begin{vmatrix} 
 0 & 1 \\ \frac{-k}{M}& \frac{-b}{M} \\ 
-\end{bmatrix}
+\end{vmatrix}
 $$
 x(t) 
 +
  $$
- \begin{bmatrix}
+ \begin{vmatrix}
  0\\ \frac{1}{M}
- \end{bmatrix}
+ \end{vmatrix}
  $$ 
  F(t)
 
