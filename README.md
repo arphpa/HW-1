@@ -66,10 +66,10 @@ $$\begin{vmatrix}
  0&1/RC  \\
 \end{vmatrix}$$
 
-$$\begin{matrix}
+$$\begin{vmatrix}
 V1 
 \\ V2
-\end{matrix}$$
+\end{vmatrix}$$
 
 가 된다.
 
