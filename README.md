@@ -77,17 +77,26 @@ V1
 ## P.3-5
 
 
-$m\ddot{x}(t)+b\dot{x}(t)+kx(t)=u(t)$
+$T_{s}=\frac{Y(s)}{U(s)}=\frac{(s+2)}{s(s+8)(s-3)})$
 
-이를 라플라스 변환을 하면
+상태변수모델을 구하면 
 
-$ms^{2}X(s)+bsX(s)+kX(s)=U(s)$
+$A=\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+0 & -24 & 5 \\
+\end{bmatrix}$
 
-$X(s)=\frac{1}{s^{2}+\frac{b}{m}s+\frac{k}{m}}$
+$b=\begin{bmatrix}
+0  \\
+0  \\
+-1  \\
+\end{bmatrix}$
 
-이를 역라플라스변환을 하면
 
-$x(t)=e^{-\sqrt(\frac{b}{2m})t}\frac{1}{\sqrt(\frac{2k-b}{2m})}sin(\frac{2k-b}{2m}t)$
+$c=\begin{bmatrix}
+2 & 1 & 0 \\
+\end{bmatrix}$
 
 가 된다.
 
