@@ -67,7 +67,8 @@ $$\begin{vmatrix}
 \end{vmatrix}$$
 
 $$\begin{matrix}
-V1 \\ V2
+V1 
+\\ V2
 \end{matrix}$$
 
 가 된다.
