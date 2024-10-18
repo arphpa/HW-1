@@ -21,6 +21,7 @@ $M_{1}\frac{\partial^2 y(t)}{\partial t^2}+b_{1}\dot{y}(t)+ky(t)=F(t)$
 이를 라플라스 변환하면
 
 $\dot{x}(t)$ = 
+
 $$
 \begin{vmatrix} 
 0 & 1 \\ 
@@ -29,12 +30,14 @@ $$
 $$
 
 x(t) 
+
 +
- $$
- \begin{vmatrix}
- 0\\ \frac{1}{M}
- \end{vmatrix}
- $$ 
+ 
+$$
+\begin{vmatrix}
+0\\ \frac{1}{M}
+\end{vmatrix}
+$$ 
  
  F(t)
 
