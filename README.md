@@ -104,37 +104,71 @@ $$c=\begin{bmatrix}
 ## P.3-12
 
 
-다음 문제를 미분방정식으로 나타내면
+다음 문제를 전달함수를 토대로 상태공간을 모델하
 
-$M\ddot{x}+b(\dot{x}-\dot{y})+k(x-y)=F(t)$
+$$A=\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-48 & -44 & -12 \\
+\end{bmatrix} x$$
 
-$m\ddot{y}+b(\dot{y}-\dot{x})+k(y-x)=0$
+ +
 
-이를 라플라스 변환시키고 행렬로 나타내면
-
-$$
-\begin{vmatrix}
-(Ms^2+bs+k) & -(bs+k) \\
--(bs+k) & (ms^2+bs+k) \\
-\end{vmatrix}
-$$
-
-$$
-\begin{vmatrix}
-(X(s)) \\ (Y(s)) 
-\end{vmatrix}
+$$\begin{bmatrix}
+0  \\
+0  \\
+1  \\
+\end{bmatrix} r
 $$
 
-=
+이를 상태천이 행렬을 구하기 위해서는 다음과 같은 과정이 필요하다.
 
-$$\begin{vmatrix}
-F(s) \\ 0
-\end{vmatrix}
+$$
+det(sI-A)=\begin{bmatrix}
+s & -1 & 0 \\
+0 & s & -1 \\
+48 & 44 & -s-12 \\
+\end{bmatrix}
 $$
 
-$\frac{Y(s)}{F(s)}=\frac{\frac{1}{Mm}(bs+k)}{s^2[s^2=(1+\frac{m}{M})(\frac{b}{m}s+\frac{k}{m})]}$
+$$
+adj(sI-A)=\begin{bmatrix}
+s & 0 & 48 \\
+-1 & s & 44 \\
+0 & -1 & -s-12 \\
+\end{bmatrix}
+$$
 
-이라는 전달함수가 된다.
+adj와 det을 나누면 [sI-A]의 역행렬이 되고 이를 역라플라스 변환을 하면 상태천이 행렬이 나오게 된다.
+1열은 
+
+$$\begin{bmatrix}
+-1/14e^-2t + 2/7e^-4t-3/14e^-6t \\
+ -1/12e^-2t+ 1/24e^-4t+1/12e^-6t \\
+0 \\
+\end{bmatrix}
+$$
+
+2행은 
+
+$$
+\begin{bmatrix}
+0 \\
+-1/12e^-2t+ 1/24e^-4t+1/12e^-6t \\
+11/3e^-2t - 11/6e^-4t-11/6e^-6t \\
+\end{bmatrix}
+$$
+
+3행은 
+
+$$\begin{bmatrix}
+4e^-2t-2e^-4t-2e^-6t \\
+-1/12e^-2t+ 1/24e^-4t+1/12e^-6t \\
+5/4e^-2t - 2e^+34e^-6t \\
+\end{bmatrix}
+$$
+
+이 된다.
 
 ## P.3-17
 
