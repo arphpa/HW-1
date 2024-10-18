@@ -26,7 +26,7 @@ $$
 \begin{vmatrix} 
 0 & 1 \\ 
 \frac{-k}{M}& \frac{-b}{M} \\ 
-\end{vmatrix}
+\end{vmatrix}x(t)
 $$
 
 x(t) +
